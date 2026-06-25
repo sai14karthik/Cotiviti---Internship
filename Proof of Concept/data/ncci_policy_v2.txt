@@ -1,0 +1,60 @@
+MEDICARE NATIONAL CORRECT CODING INITIATIVE (NCCI) — SAMPLE POLICY EXCERPT
+Effective Date: April 1, 2025 | Version: Q2-2025-B
+Source: Synthetic demo document for educational use only (not an official CMS publication)
+
+SECTION 1 — PURPOSE
+The NCCI promotes correct coding and prevents improper payment when incorrect code
+combinations or unit counts are reported on Medicare Part B claims. This quarterly
+update replaces Version Q1-2025-A.
+
+SECTION 2 — PROCEDURE-TO-PROCEDURE (PTP) EDITS
+PTP edits identify pairs of HCPCS/CPT codes that generally should not be reported
+together on the same date of service for the same beneficiary.
+
+Edit NCCI-PTP-1042
+  Column One Code: 99213 (Office visit, established patient, low complexity)
+  Column Two Code: 99214 (Office visit, established patient, moderate complexity)
+  Rationale: These evaluation and management services represent overlapping work for
+  the same encounter. Report the code that best describes the service furnished.
+  Modifier Indicator: 0 (not allowed)
+
+Edit NCCI-PTP-2087
+  Column One Code: 93000 (Electrocardiogram, complete)
+  Column Two Code: 93010 (Electrocardiogram, tracing only)
+  Rationale: The tracing-only service is a component of the complete ECG. Do not
+  report both codes for the same study.
+  Modifier Indicator: 0 (not allowed)
+
+Edit NCCI-PTP-3310
+  Column One Code: 36415 (Routine venipuncture)
+  Column Two Code: 99199 (Unlisted special service)
+  Rationale: Venipuncture is inclusive when performed as part of a laboratory draw
+  visit unless documented as a distinct procedural service.
+  Modifier Indicator: 1 (allowed with appropriate modifier when clinically distinct)
+
+Edit NCCI-PTP-4419 (NEW)
+  Column One Code: 90480 (COVID-19 vaccine administration)
+  Column Two Code: G0008 (Influenza virus vaccine administration)
+  Rationale: When both immunizations are given on the same date, report each
+  administration with modifier 59 only when vaccines were furnished at separate
+  anatomic sites and documentation supports distinct services.
+  Modifier Indicator: 1 (allowed with modifier when clinically distinct)
+
+SECTION 3 — MEDICALLY UNLIKELY EDITS (MUE)
+MUE values define maximum units of service per day for a code under most circumstances.
+
+Code 36415 — MUE: 2 units per date of service per patient (REVISED from 1 unit)
+Code 80053 — MUE: 1 unit per date of service (comprehensive metabolic panel)
+Code 97110 — MUE: 6 units per date of service (therapeutic exercises) (REVISED from 4)
+
+SECTION 4 — MODIFIER GUIDANCE
+Modifier 59, XE, XP, XS, or XU may be appended to a Column Two code when the clinical
+circumstances justify a distinct procedural service. Providers must maintain supporting
+documentation in the medical record. Effective April 1, 2025, claims without required
+documentation references may pend for manual review.
+
+SECTION 5 — IMPLEMENTATION
+Claims processing systems shall apply these edits at prepayment review. Denied Column
+Two lines may be appealed with documentation when modifier use is supported. Health
+plans using Cotiviti-style prepay editing should reload rule tables within 5 business
+days of a CMS replacement file release.
